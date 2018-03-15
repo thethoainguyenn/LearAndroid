@@ -1,0 +1,16 @@
+NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        Notification.Builder notifiBuilder = new Notification.Builder(this);
+        notifiBuilder.setContentTitle("Thong bao");
+        notifiBuilder.setContentText("Ban dang theo doi video");
+        notifiBuilder.setSmallIcon(R.drawable.ic_launcher_background);
+
+        notificationManager.notify(1, notifiBuilder.build());
+
+
+// Event click item gridview
+arrStaff.get(i).getUsername()
+
+
+// Search from listview
+
+http://www.worldbestlearningcenter.com/tips/Android-search-ListView.htm
